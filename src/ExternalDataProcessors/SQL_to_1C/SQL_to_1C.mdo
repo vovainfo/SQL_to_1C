@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ExternalDataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="517ae452-59f1-4169-b78e-309d75dff20b">
+  <producedTypes>
+    <objectType typeId="8544a21e-b611-4710-84cb-0133e8bd504e" valueTypeId="b81f502e-2e83-4407-ad90-a08a6bf9d08b"/>
+  </producedTypes>
+  <name>SQL_to_1C</name>
+  <synonym>
+    <key>ru</key>
+    <value>SQL to 1 C</value>
+  </synonym>
+  <containedObjects classId="c3831ec8-d8d5-4f93-8a22-f9bfae07327f" objectId="772d2562-673c-45fd-9b7a-ed1e9a6cef3a"/>
+  <defaultForm>ExternalDataProcessor.SQL_to_1C.Form.Форма</defaultForm>
+  <auxiliaryForm>ExternalDataProcessor.SQL_to_1C.Form.Форма</auxiliaryForm>
+  <forms uuid="8791247a-b300-4fe4-b1de-ae1ea6f0f1b5">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:ExternalDataProcessor>
