@@ -2,7 +2,7 @@
 <form:Form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:form="http://g5.1c.ru/v8/dt/form">
   <title>
     <key>ru</key>
-    <value>Структура хранения БД</value>
+    <value>Конвертация SQL в 1С</value>
   </title>
   <items xsi:type="form:FormGroup">
     <name>ГруппаСтраницы</name>
@@ -1915,7 +1915,7 @@
       </userVisible>
       <title>
         <key>ru</key>
-        <value>Структура</value>
+        <value>Структура БД</value>
       </title>
       <toolTip>
         <key>ru</key>
@@ -2394,7 +2394,7 @@
       </userVisible>
       <title>
         <key>ru</key>
-        <value>Поля</value>
+        <value>Поля БД</value>
       </title>
       <toolTip>
         <key>ru</key>
@@ -3606,11 +3606,31 @@
       <common>true</common>
     </edit>
   </attributes>
+  <attributes>
+    <name>ВозможныеСуффиксы</name>
+    <title>
+      <key>ru</key>
+      <value>Возможные суффиксы</value>
+    </title>
+    <id>7</id>
+    <valueType>
+      <types>ValueList</types>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+    <extInfo xsi:type="form:ValueListExtInfo">
+      <itemValueType/>
+    </extInfo>
+  </attributes>
   <formCommands>
     <name>ПарсингЗапроса</name>
     <title>
       <key>ru</key>
-      <value>Парсинг запроса</value>
+      <value>Парсинг SQL запроса</value>
     </title>
     <id>1</id>
     <toolTip>

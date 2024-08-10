@@ -6,17 +6,28 @@
   <name>SQL_to_1C</name>
   <synonym>
     <key>ru</key>
-    <value>SQL to 1 C</value>
+    <value>SQL to 1C</value>
   </synonym>
+  <comment>Vladimir Gumennikov, https://github.com/vovainfo/SQL_to_1C</comment>
   <containedObjects classId="c3831ec8-d8d5-4f93-8a22-f9bfae07327f" objectId="772d2562-673c-45fd-9b7a-ed1e9a6cef3a"/>
   <defaultForm>ExternalDataProcessor.SQL_to_1C.Form.Форма</defaultForm>
   <auxiliaryForm>ExternalDataProcessor.SQL_to_1C.Form.Форма</auxiliaryForm>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
   <forms uuid="8791247a-b300-4fe4-b1de-ae1ea6f0f1b5">
     <name>Форма</name>
     <synonym>
       <key>ru</key>
       <value>Форма</value>
     </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
